@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mk-uikit"
+    }
+  },
+  "defaultProject": "mk-uikit",
+  "cli": {
+    "analytics": false
+  }
 }
