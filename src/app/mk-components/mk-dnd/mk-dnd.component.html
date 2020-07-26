@@ -1,9 +1,9 @@
-<div class="border border-dashed d-flex justify-content-center align-items-center container w-75 border-warning bg-white"
+<div class="Dnd d-flex justify-content-center align-items-center container w-75 bg-white"
      appDnd (fileDropped)="handleFiles($event)">
   <input type="file" #fileDropRef id="fileDropRef" multiple (change)="handleFiles($event.target.files)"/>
-  <div class="m-3">
+  <div class="m-3 text-center">
     <h3 class="mt-3"> Drag & Drop file here</h3>
     <h3 class="m-3">or</h3>
-    <label for="fileDropRef">Browse for file</label>
+    <label class="btn btn-primary" for="fileDropRef">Browse for file</label>
   </div>
 </div>

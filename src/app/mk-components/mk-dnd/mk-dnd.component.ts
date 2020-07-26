@@ -12,8 +12,7 @@ export class MkDndComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
-  private handleFiles(files: FileList): void {
+  public handleFiles(files: FileList): void {
     console.log(typeof files);
     console.log(files);
     alert(Array.from(files)
